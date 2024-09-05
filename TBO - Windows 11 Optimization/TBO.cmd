@@ -18,7 +18,7 @@ If Not %ERRORLEVEL% EQU 0 (
 
 cls
 :
-echo				THE BIG ONE's WINDOWS 11 OPTIMIZIATION SCRIPT v12.6
+echo				THE BIG ONE's WINDOWS 11 OPTIMIZIATION SCRIPT v12.7
 echo				===================================================
 echo.
 :STEP1
@@ -572,6 +572,7 @@ REM echo [DEBUG] Registry Value:			%ValueName%	%ValueType%	%ValueValue%
 "%OSEEXE%" -xml "%WorkDir%\Open-Shell\TBO-OSE.xml"
 Reg.exe add "HKCU\Software\OpenShell\ClassicExplorer" /v "ShowedToolbar" /t REG_DWORD /d "1" /f > nul
 Reg.exe add "HKCU\Software\OpenShell\ClassicExplorer" /v "NoInitialToolbar" /t REG_DWORD /d "1" /f > nul
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Internet Explorer\Main" /v "Enable Browser Extensions" /t REG_SZ /d "yes" /f > nul
 GOTO OS.END
 
 :OS.END
