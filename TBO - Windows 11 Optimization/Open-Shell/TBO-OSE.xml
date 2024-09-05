@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Settings component="Explorer" version="4.4.131">
+	<TreeStyle value="Vista"/>
+	<HScrollbar value="On"/>
+	<NoFadeButtons value="1"/>
+	<AutoNavigate value="KeyboardOnly"/>
+	<ReplaceFileUI value="0"/>
+	<ReplaceFolderUI value="0"/>
+	<EnableMore value="1"/>
+</Settings>
